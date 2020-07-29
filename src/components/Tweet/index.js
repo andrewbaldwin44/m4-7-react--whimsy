@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 import Header from "./Header";
 import ActionBar from "./ActionBar";
+import Stat from "./Stat";
 import { TweetContext } from './TweetContext';
 
 const Tweet = () => {
@@ -21,6 +22,8 @@ const Tweet = () => {
       <Header />
       <TweetContents>{tweetContents}</TweetContents>
       <Timestamp>{date}</Timestamp>
+      <Divider />
+      <Stat />
       <Divider />
       <ActionBar />
       <Divider />
