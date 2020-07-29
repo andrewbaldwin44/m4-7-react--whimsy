@@ -25,7 +25,7 @@ const fade = keyframes`
 
 const Wrapper = styled.div`
   position: absolute;
-  background-color: ${props => props.color};
+  background-color: ${prop => prop.color};
   width: 100%;
   height: 100%;
   border-radius: 100%;
