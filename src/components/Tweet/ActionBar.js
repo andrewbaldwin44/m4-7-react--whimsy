@@ -9,7 +9,6 @@ import { TweetContext } from './TweetContext';
 const ActionBar = () => {
   const {
     isRetweetedByCurrentUser,
-    isLikedByCurrentUser,
     handleToggleLiked,
     handleToggleRetweet
   } = useContext(TweetContext);
