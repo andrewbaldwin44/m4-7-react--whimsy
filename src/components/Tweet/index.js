@@ -13,12 +13,14 @@ const Tweet = () => {
     tweetContents,
     isRetweetedByCurrentUser,
     isLikedByCurrentUser,
+    date
   } = useContext(TweetContext);
 
   return (
     <Wrapper>
       <Header />
       <TweetContents>{tweetContents}</TweetContents>
+      <Timestamp>{date}</Timestamp>
       <Divider />
       <ActionBar />
       <Divider />
